@@ -3,7 +3,7 @@ A collection of `hello, world` basic project setups for languages I'm interested
 
 Partly used for validating `vimrc` plugins.
 
-## `README` Checklist For Each
+## Checklist For Each
 - [ ] Installation steps
 - [ ] Output `hello, world` to `stdout` on the CLI
 - [ ] Dependency management
@@ -14,6 +14,7 @@ Partly used for validating `vimrc` plugins.
   - [ ] Plugins
 - [ ] Style Guide
 - [ ] Documentation
+- [ ] `.gitignore`
 
 ### Programming Languages
 - [ ] Java
