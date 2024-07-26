@@ -6,10 +6,11 @@ Partly used for validating `vimrc` plugins.
 ## Checklist For Each
 - [ ] Installation steps
 - [ ] Output `hello, world` to `stdout` on the CLI
-- [ ] Dependency management
+- [ ] Build Tools & Dependency Management
 - [ ] Unit tests
 - [ ] `vimrc`
   - [ ] Recognize filetype
+  - [ ] Syntax highlighting
   - [ ] Format file
   - [ ] Plugins
 - [ ] Style Guide
