@@ -1,0 +1,78 @@
+# Gradle.gitignore
+.gradle
+**/build/
+!src/**/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Avoid ignore Gradle wrappper properties
+!gradle-wrapper.properties
+
+# Cache of project
+.gradletasknamecache
+
+# Eclipse Gradle plugin generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# community/Java/JBoss4.gitignore
+# gitignore for JBoss v4 projects
+
+/server/all/data
+/server/all/log
+/server/all/tmp
+/server/all/work
+/server/default/data
+/server/default/log
+/server/default/tmp
+/server/default/work
+/server/minimal/data
+/server/minimal/log
+/server/minimal/tmp
+/server/minimal/work
+
+# Note:
+# there may be other directories that contain *.xml.failed or *.war.failed files
+/server/default/deploy/*.xml.failed
+/server/default/deploy/*.war.failed
+
+# community/Java/JBoss6.gitignore
+# gitignore for JBoss v6 projects
+#
+# Note: to ensure empty directories remain part of the repository, like
+# `/server/minimal/lib`, you should add an empty `.gitignore` or `.gitkeep` file
+# to the directory - otherwise you may have issues when starting the service.
+
+/server/all/data
+/server/all/log
+/server/all/tmp
+/server/all/work
+/server/default/data
+/server/default/log
+/server/default/tmp
+/server/default/work
+/server/minimal/data
+/server/minimal/log
+/server/minimal/tmp
+/server/minimal/work
+/server/jbossweb-standalone/data
+/server/jbossweb-standalone/log
+/server/jbossweb-standalone/tmp
+/server/jbossweb-standalone/work
+/server/standard/data
+/server/standard/log
+/server/standard/tmp
+/server/standard/work
+/server/default/deploy/*.jar.failed
+/server/default/deploy/*.jar.dodeploy
+/server/default/deploy/*.xml.failed
+/server/default/deploy/*.xml.dodeploy
+/server/default/deploy/*.war.failed
+/server/default/deploy/*.war.dodeploy
+
